@@ -8,15 +8,15 @@ This converter takes a Figma file as input and generates a standalone HTML file 
 
 ## Features
 
-- ✅ Complete layout conversion (absolute positioning and flexbox)
-- ✅ Accurate typography (fonts, sizes, weights, spacing)
-- ✅ Color accuracy (RGBA conversion)
-- ✅ Gradient support (linear gradients)
-- ✅ Border styling (colors, weights, corner radii)
-- ✅ Auto-layout frame support
-- ✅ Opacity handling
-- ✅ Google Fonts integration
-- ✅ Image export and embedding
+- Complete layout conversion (absolute positioning and flexbox)
+- Accurate typography (fonts, sizes, weights, spacing)
+- Color accuracy (RGBA conversion)
+- Gradient support (linear gradients)
+- Border styling (colors, weights, corner radii)
+- Auto-layout frame support
+- Opacity handling
+- Google Fonts integration
+- Image export and embedding
 
 ## Setup
 
@@ -148,3 +148,4 @@ MIT License
 
 This project was created as part of the Softlight Engineering Take-Home Assignment.
 
+# yes this README was created using AI for better time management.
