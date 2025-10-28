@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Softlight Engineering Take-Home Assignment (Copy)</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300,400,500,600,700&display=swap" rel="stylesheet">
+    <style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  margin: 0;
+  padding: 20px;
+  background: rgba(30, 30, 30, 1);
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home-indicator-1111 {
+  position: absolute;
+  left: 127.00000000000011px;
+  top: 839.0px;
+  width: 139.0px;
+  height: 5.0px;
+  transform: rotate(180.0deg);
+  background: rgba(44, 25, 77, 1);
+  border-radius: 100.0px;
+}
+
+.home-indicator-1110 {
+  position: absolute;
+  left: 0.0px;
+  top: 831.0px;
+  width: 393.0px;
+  height: 21.0px;
+}
+
+.headline-1112 {
+  position: absolute;
+  left: 32.000000000000114px;
+  top: 170.0px;
+  width: 154.0px;
+  height: 58.0px;
+  font-family: 'Inter', sans-serif;
+  font-size: 48.0px;
+  font-weight: 700;
+  line-height: 57.60000228881836px;
+  letter-spacing: -0.96px;
+  text-align: left;
+  color: rgba(53, 50, 64, 1);
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.headline-1116 {
+  font-family: 'Inter', sans-serif;
+  font-size: 15.0px;
+  font-weight: 500;
+  line-height: 18.0px;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: rgba(53, 50, 64, 1);
+  white-space: nowrap;
+}
+
+.frame-1321318734-1115 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20.0px;
+  padding-bottom: 20.0px;
+  gap: 10.0px;
+  width: 329.0px;
+  height: 58.0px;
+  border: 1.0px solid rgba(214, 214, 214, 1);
+  border-radius: 8.0px 8.0px 0.0px 0.0px;
+}
+
+.headline-1118 {
+  font-family: 'Inter', sans-serif;
+  font-size: 15.0px;
+  font-weight: 500;
+  line-height: 18.0px;
+  letter-spacing: -0.3px;
+  text-align: left;
+  color: rgba(191, 191, 191, 1);
+  white-space: nowrap;
+}
+
+.frame-1321318735-1117 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 20.0px;
+  padding-bottom: 20.0px;
+  gap: 10.0px;
+  width: 329.0px;
+  height: 59.0px;
+  border: 1.0px solid rgba(214, 214, 214, 1);
+  border-radius: 0.0px 0.0px 8.0px 8.0px;
+}
+
+.frame-1321318736-1114 {
+  position: absolute;
+  left: 32.000000000000114px;
+  top: 252.0px;
+  display: flex;
+  flex-direction: column;
+  width: 329.0px;
+  height: 117.0px;
+}
+
+.frame-1120 {
+  position: absolute;
+  left: 16.000000000000114px;
+  top: 662.0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8.0px;
+  width: 361.0px;
+  height: 46.0px;
+  background: linear-gradient(200.5712640788267deg, rgba(149, 33, 139, 1) 0.0%, rgba(58, 60, 179, 1) 100.0%);
+  border-radius: 62.0px;
+  overflow: hidden;
+}
+
+.label-text-1123 {
+  font-family: 'Inter', sans-serif;
+  font-size: 15.0px;
+  font-weight: 600;
+  line-height: 22.0px;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  white-space: nowrap;
+}
+
+.frame-1125 {
+  position: absolute;
+  left: 16.000000000000114px;
+  top: 720.0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8.0px;
+  width: 361.0px;
+  height: 46.0px;
+  background: rgba(225, 224, 230, 1);
+  border-radius: 62.0px;
+  overflow: hidden;
+}
+
+.label-text-1126 {
+  font-family: 'Inter', sans-serif;
+  font-size: 15.0px;
+  font-weight: 600;
+  line-height: 22.0px;
+  letter-spacing: -0.15px;
+  text-align: center;
+  color: rgba(53, 50, 64, 1);
+  white-space: nowrap;
+}
+
+.headline-1127 {
+  position: absolute;
+  left: 16.000000000000114px;
+  top: 778.0px;
+  width: 361.0px;
+  height: 37.0px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13.0px;
+  font-weight: 500;
+  line-height: 15.600000381469727px;
+  letter-spacing: -0.26px;
+  text-align: center;
+  color: rgba(53, 50, 64, 1);
+  opacity: 0.800000011920929;
+  display: block;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.frame-175 {
+  width: 393.0px;
+  height: 852.0px;
+  position: relative;
+  margin: 0 auto;
+  background: rgba(250, 250, 250, 1);
+  border-radius: 32.0px;
+  overflow: hidden;
+}
+    </style>
+</head>
+<body>
+  <div class="frame-175">
+    <div class="home-indicator-1110">
+    <div class="home-indicator-1111"></div>
+  </div>
+    <div class="headline-1112">Sign in</div>
+    <div class="frame-1321318736-1114">
+    <div class="frame-1321318734-1115">
+    <span class="headline-1116">andy@gmail.com</span>
+  </div>
+    <div class="frame-1321318735-1117">
+    <span class="headline-1118">Password</span>
+  </div>
+  </div>
+    <div class="frame-1120"><span class="label-text-1123">Sign in</span></div>
+    <div class="frame-1125"><span class="label-text-1126">Create account</span></div>
+    <div class="headline-1127">Forgot password</div>
+  </div>
+</body>
+</html>
