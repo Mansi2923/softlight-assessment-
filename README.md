@@ -148,4 +148,4 @@ MIT License
 
 This project was created as part of the Softlight Engineering Take-Home Assignment.
 
-# yes this README was created using AI for better time management.
+<small>yes this README was created using AI for better time management.</small>
